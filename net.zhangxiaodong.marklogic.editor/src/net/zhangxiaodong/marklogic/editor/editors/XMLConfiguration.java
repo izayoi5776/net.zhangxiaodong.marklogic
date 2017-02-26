@@ -66,12 +66,12 @@ public class XMLConfiguration extends SourceViewerConfiguration {
 		reconciler.setDamager(dr, XMLPartitionScanner.XML_TAG);
 		reconciler.setRepairer(dr, XMLPartitionScanner.XML_TAG);
 
-		dr = new DefaultDamagerRepairer(getXMLScanner());
+		dr = new DefaultDamagerRepairer(getXMLTagScanner());
 		reconciler.setDamager(dr, IDocument.DEFAULT_CONTENT_TYPE);
 		reconciler.setRepairer(dr, IDocument.DEFAULT_CONTENT_TYPE);
 
 		NonRuleBasedDamagerRepairer ndr = new NonRuleBasedDamagerRepairer(
-				new TextAttribute(colorManager.getColor(IXMLColorConstants.XML_COMMENT)));
+				new TextAttribute(colorManager.getColor(IXMLColorConstants.XQY_COMMENT)));
 		reconciler.setDamager(ndr, XMLPartitionScanner.XML_COMMENT);
 		reconciler.setRepairer(ndr, XMLPartitionScanner.XML_COMMENT);
 
