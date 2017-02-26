@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Marklogic
+Bundle-SymbolicName: net.zhangxiaodong.marklogic
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: zxd
+Require-Bundle: net.zhangxiaodong.marklogic.editor;bundle-version="1.0.0",
+ net.zhangxiaodong.marklogic.launcher.ui;bundle-version="1.0.0",
+ net.zhangxiaodong.marklogic.launcher.core;bundle-version="1.0.0"

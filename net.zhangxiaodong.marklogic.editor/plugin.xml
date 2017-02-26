@@ -11,7 +11,7 @@
             extensions="xqy"
             icon="icons/sample.gif"
             id="net.zhangxiaodong.marklogic.editor.editors.XMLEditor"
-            name="Sample XML Editor">
+            name="marklogic xqy editor">
       </editor>
    </extension>
 

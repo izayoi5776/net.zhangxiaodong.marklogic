@@ -29,6 +29,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 dependencies {
-	// https://mvnrepository.com/artifact/org.eclipse.jdt/org.eclipse.jdt.launching
 	compile group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.launching', version: '3.8.101'
+	//compile group: 'com.marklogic', name: 'marklogic-xcc', version: '8.0.5'
 }

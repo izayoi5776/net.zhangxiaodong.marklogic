@@ -45,3 +45,14 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#add by zxd 2017/2/26
+net.zhangxiaodong.marklogic.launcher.ui2/
+t2/
+t3/
+t4
+xqy_debugger/
+.metadata/
+.recommenders/
+java-client-api-3.0.7/
+t_marklogic_java_api/
