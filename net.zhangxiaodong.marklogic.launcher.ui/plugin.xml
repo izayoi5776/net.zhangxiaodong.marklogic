@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="net.zhangxiaodong.marklogic.launcher.ui.AbstractLaunchConfigurationTabGroup2"
+            id="net.zhangxiaodong.marklogic.launcher.ui.launchConfigurationTabGroup2"
+            type="net.zhangxiaodong.marklogic.launcher.core.launchConfigurationType1">
+      </launchConfigurationTabGroup>
+   </extension>
+
+
+</plugin>

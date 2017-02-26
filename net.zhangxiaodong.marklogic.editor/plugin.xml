@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="net.zhangxiaodong.marklogic.editor.editors.XMLEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            default="true"
+            extensions="xqy"
+            icon="icons/sample.gif"
+            id="net.zhangxiaodong.marklogic.editor.editors.XMLEditor"
+            name="Sample XML Editor">
+      </editor>
+   </extension>
+
+</plugin>
