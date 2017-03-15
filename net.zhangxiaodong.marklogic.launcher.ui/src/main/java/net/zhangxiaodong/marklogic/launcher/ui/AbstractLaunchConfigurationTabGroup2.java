@@ -22,6 +22,7 @@ public class AbstractLaunchConfigurationTabGroup2 extends AbstractLaunchConfigur
 	@Override
 	public void createTabs(ILaunchConfigurationDialog arg0, String arg1) {
 		ILaunchConfigurationTab[] tabs = new ILaunchConfigurationTab[] {
+				new XqueryMainTab(),
 				new AppletMainTab(),
 				new AppletParametersTab(),
 				new AppletArgumentsTab(),
